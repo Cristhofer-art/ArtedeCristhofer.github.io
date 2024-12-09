@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <form>
+        <caption><b>Servicio al Cliente</b></caption>
+        <fieldset>
+            <legend>Encuesta Cliente:</legend>
+            <label for="nombretxt">
+                Nombre y Apellido:
+                <input type="text" id="nombretxt"/>
+            </label>
+            <br/>
+            <label for="genero_m">
+                Genero:
+                <br/>
+                <input type="radio" name="genero" id="genero_m" value="Masculino"> Masculino
+                <br/>
+                <input type="radio" name="genero" id="genero_f" value="Femenino" checked> Femenino
+            </label>
+            <br/>
+            <label for="emailtxt">
+                Correo Electrónico:
+                <input type="email" name="" id="emailtxt">
+            </label>
+            <br/><br/>
+            <label for="fnacimientotxt">
+                Fecha Nacimiento:
+                <input type="date" name="" id="fnacimientotxt">
+            </label>
+            <br/><br/>
+            <label for="colortxt">
+                Seleccione Color Favorito:
+                <input type="color" name="" id="colortxt">
+            </label>
+            <br/><br/>
+            <label for="fonotxt">
+                Número Teléfono:
+                <input type="tel" name="" id="fonotxt">
+            </label>
+            <br/><br/>
+            <label for="rango_valor">
+                Satisfacción Servicio:
+                1<input type="range" name="" id="rango_valor" min="1" max="5">5
+            </label>
+            <br/><br/>
+            <label for="">
+                Región de Viaje:
+                <select name="" id="">
+                    <option value="Sierra">Sierra</option>
+                    <option value="Costa">Costa</option>
+                    <option value="Oriente">Oriente</option>
+                    <option value="Galapagos">Región Insular</option>
+                </select>
+            </label>
+        </fieldset>
+        <br/>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reiniciar">
+    </form>    
+</body>
+</html>

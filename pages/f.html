@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamismo JS</title>
+</head>
+<body>
+    <header>
+        <h1>JavaScript</h1>
+        <hr/>
+    </header>
+    <main>
+        <form name="mi Formulario">
+            <fieldset>
+                <legend>Calculadora de Indice Masa Corporal</legend>
+                <label for="estatura">
+                    ¿Cuál es tu estatura (metros)?
+                    <input type="number" name="txtestatura" id="estatura">
+                </label>
+                <br/><br/>
+                <label for="peso">
+                    ¿Cuál es tu peso (kilogramos)?
+                    <input type="number" name="txtpeso" id="peso">
+                </label>
+            </fieldset>
+            <br/>
+            <button onclick="calcularIMC()">Calcular</button>
+            <input type="reset" value="Resetear">
+        </form>
+    </main>
+    <script src="/funcion.js"></script>
+</body>
+</html>
